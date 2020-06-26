@@ -31,7 +31,7 @@ const AppointmentCreated: React.FC = () => {
       ],
       index: 0,
     });
-  }, []);
+  }, [reset]);
 
   const formattedDate = useMemo(() => {
     return format(
